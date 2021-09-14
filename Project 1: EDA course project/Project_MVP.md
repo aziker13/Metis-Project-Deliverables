@@ -1,7 +1,7 @@
 ## New York Subway Turnstile Data Analysis 
 
 The question I've looked to answer with this EDA project has been what subway station our clinet should be sending their survey teams to in order to maximize
-their galaattendance.
+their gala attendance.
 
 I started with using data from the MTA website, and used the 13 weeks of most recent data (05/29/21 - 08/27/21) for this analysis. 
 

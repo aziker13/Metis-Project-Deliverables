@@ -5,7 +5,7 @@ their gala attendance.
 
 I started with using data from the MTA website, and used the 13 weeks of most recent data (05/29/21 - 08/27/21) for this analysis. 
 
-![Screenshot from 2021-09-14 09-34-03](https://user-images.githubusercontent.com/87049486/133297915-7571fa9c-f822-4241-8322-df02ca6ac9a4.png)
+![Screenshot from 2021-09-14 12-48-06](https://user-images.githubusercontent.com/87049486/133324112-c00f5514-206e-4871-9f61-279ca709ec08.png)
 
 
 Using this data, I created a bar graph displaying the stations with the 10 largest totals of entries for the stated time period. Given the results from this plot, Penn St station has seen the most traffic over this time.

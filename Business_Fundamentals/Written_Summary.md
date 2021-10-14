@@ -1,4 +1,5 @@
 Abstract
+
 The problem scoped for this project is one centered around restaurants and the fact that most patrons will look at the wine list and go for either the cheapest
 or second cheapest option, in large part because they lack the knowledge or confidence to spend more and know what they are getting. The business impact of solving 
 this issue using data science would be restaurants seeing more money spent per meal, patrons having a better overall dining experience. This can be done using data driven 

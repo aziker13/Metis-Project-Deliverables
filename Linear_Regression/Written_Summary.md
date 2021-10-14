@@ -1,7 +1,3 @@
-EDA Project Summary: Determining the Best Way to Deploy Survey Teams to Subway Stations
-
-Alika Ziker
-
 Abstract
 
 The guiding question for this Linear Regression project was what makes a soccer player valuable on the transfer market and can we identify key statistics that

@@ -37,4 +37,4 @@ Tools:
 
 Communication:
 
-The slides that are resented contain relevant visualization of data and conclusions drawn from that data
+The slides that are presented contain relevant visualization of data and conclusions drawn from that data

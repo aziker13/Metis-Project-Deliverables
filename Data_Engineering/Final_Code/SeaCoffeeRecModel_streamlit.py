@@ -1,8 +1,7 @@
 
-#from sklearn.decomposition import NMF
-#from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
-import sklearn
-#from sklearn.metrics import pairwise_distances
+from sklearn.decomposition import NMF
+from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
+from sklearn.metrics import pairwise_distances
 from joblib import load
 import pandas as pd
 import streamlit as st

@@ -2,7 +2,8 @@
 from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 from sklearn.metrics import pairwise_distances
-from joblib import load
+import joblib
+#from joblib import load
 import pandas as pd
 import streamlit as st
 
@@ -12,8 +13,8 @@ st.write(
  '''
  )
 
-cv = load('SeaCoffeeRecModel_cv.joblib') 
-nmf_model = load('SeaCoffeeRecModel_nmf.joblib')
+cv = joblib.load('SeaCoffeeRecModel_cv.joblib') 
+nmf_model = joblib.load('SeaCoffeeRecModel_nmf.joblib')
 df = pd.read_csv('SeaCoffeeRecModel_df.csv', index_col='name')
 
 def get_coffee_recs(string_lst,n_recs=1, df=df,vect=cv,model=nmf_model):

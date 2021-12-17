@@ -13,7 +13,7 @@ st.write(
  '''
  )
 
-cv = joblib.load('/aziker13/Metis_Project_Deliverables/Data_Engineering/Final_Code/SeaCoffeeRecModel_cv.joblib') 
+#cv = joblib.load('SeaCoffeeRecModel_cv.joblib') 
 nmf_model = joblib.load('SeaCoffeeRecModel_nmf.joblib')
 df = pd.read_csv('SeaCoffeeRecModel_df.csv', index_col='name')
 

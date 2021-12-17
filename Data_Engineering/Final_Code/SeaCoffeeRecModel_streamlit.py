@@ -13,9 +13,9 @@ st.write(
  '''
  )
 
-cv = joblib.load('SeaCoffeeRecModel_cv.joblib') 
-nmf_model = joblib.load('SeaCoffeeRecModel_nmf.joblib')
-df = pd.read_csv('SeaCoffeeRecModel_df.csv', index_col='name')
+cv = joblib.load('Data_Engineering/Final_Code/SeaCoffeeRecModel_cv.joblib') 
+nmf_model = joblib.load('Data_Engineering/Final_Code/SeaCoffeeRecModel_nmf.joblib')
+df = pd.read_csv('Data_Engineering/Final_Code/SeaCoffeeRecModel_df.csv', index_col='name')
 
 def get_coffee_recs(string_lst,n_recs=1, df=df,vect=cv,model=nmf_model):
     vt = cv.transform(string_lst)
